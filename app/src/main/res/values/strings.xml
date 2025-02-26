@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MultiNativeApp</string>
+    <string name="my_name">Juan Pablo Cortes Moncada</string>
+    <string name="sign_up">Regístrate</string>
+    <string name="intro">Inicie una nueva aventura con MultiNativeApp y descubre una nueva forma de ver el mundo</string>
+    <string name="get_start">Comienza</string>
+    <string name="welcome">La aventura está por inciar, por favor inicia sesión</string>
+    <string name="log_in">Ingresar</string>
+    <string name="recovery">Recupera Tu Contraseña</string>
+    <string name="accountoff">No tienes cuenta?</string>
+    <string name="google">Ingresa con Google</string>
+</resources>
