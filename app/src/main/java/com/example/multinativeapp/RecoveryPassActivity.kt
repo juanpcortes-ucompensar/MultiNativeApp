@@ -75,7 +75,7 @@ class RecoveryPassActivity: AppCompatActivity() {
             Toast.makeText(this, "Se ha enviado correo", Toast.LENGTH_SHORT).show()
             Log.d("RecoveryPassActivity", "verificarCorreo: Correo se ha enviado")
             buttonSend.postDelayed({
-                    val intent = Intent(this,RecoveryPassActivity::class.java)
+                    val intent = Intent(this,LoginActivity::class.java)
                     startActivity(intent)
                     finish()
                 }, 1500)

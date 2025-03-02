@@ -4,11 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
     private lateinit var buttonStart: Button
+    private lateinit var textViewSignUp: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,9 +19,18 @@ class WelcomeActivity : AppCompatActivity() {
         Log.d("WelcomeActivity", "onCreate: Iniciando Welcome Activity")
 
         buttonStart = findViewById(R.id.bt_get_in)
+        textViewSignUp = findViewById(R.id.tv_sign_up)
+
         buttonStart.setOnClickListener{
             //redireccionamiento
             val intent = Intent(this,LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        textViewSignUp.setOnClickListener{
+            //redireccionamiento
+            val intent = Intent(this,RegisterActivity::class.java)
             startActivity(intent)
             finish()
         }
