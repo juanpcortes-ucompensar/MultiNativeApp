@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="62dp"
         android:layout_marginBottom="150dp"
-        android:text="Juan Pablo Cortes Moncada"
+        android:text="@string/my_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

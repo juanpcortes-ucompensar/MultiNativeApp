@@ -7,6 +7,20 @@
     <string name="welcome">La aventura está por inciar, por favor inicia sesión</string>
     <string name="log_in">Ingresar</string>
     <string name="recovery">Recupera Tu Contraseña</string>
+    <string name="recovery_button">Recuperar contraseña</string>
     <string name="accountoff">No tienes cuenta?</string>
     <string name="google">Ingresa con Google</string>
+    <string name="regist_description">Completa el formulario para registrar tu cuenta</string>
+    <string name="send">Enviar</string>
+    <string name="hintName">Introduce tu nombre</string>
+    <string name="hintLastName">Introduce tu apellido</string>
+    <string name="hintEmail">Introduce tu correo</string>
+    <string name="hintPhone">Introduce tu telefono</string>
+    <string name="hintPass">Crea una contraseña</string>
+    <string name="hintPutPass">Introduce tu contraseña</string>
+    <string name="hintPassRepeat">Repite tu contraseña</string>
+    <string name="terms">Acepto los términos y condiciones</string>
+    <string name="indicationRecovery">Ingrese el correo electrónico registrado en su cuenta. Al oprimir recuperar contraseña, a este correo se le enviarán las indicaciones para recuperar su contraseña</string>
+    <string name="userInfo">Datos de usuario:</string>
+    <string name="edit">Editar</string>
 </resources>
