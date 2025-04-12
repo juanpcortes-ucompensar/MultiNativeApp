@@ -23,4 +23,20 @@
     <string name="indicationRecovery">Ingrese el correo electrónico registrado en su cuenta. Al oprimir recuperar contraseña, a este correo se le enviarán las indicaciones para recuperar su contraseña</string>
     <string name="userInfo">Datos de usuario:</string>
     <string name="edit">Editar</string>
+    <string name="logo_de_la_aplicaci_n">Logo de la aplicación</string>
+    <string name="tienda_virtual">Tienda Virtual</string>
+    <string name="bienvenida">Bienvenida</string>
+    <string name="inicio">Inicio</string>
+    <string name="categorias">Categorias</string>
+    <string name="carrito">Carrito</string>
+    <string name="perfil">Perfil</string>
+    <string name="productos">Productos</string>
+    <string name="open_drawer">menu abierto</string>
+    <string name="close_drawer">menu cerrado</string>
+    <string name="add_carrito">Añadir al Carrito</string>
+    <string name="description_shop">Descubre productos de calidad en nuestras categorías de Electrónica, Ropa, Hogar, Deportes y Accesorios. Compra fácil, rápido y seguro.</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="menos">-</string>
+    <string name="num_one">1</string>
+    <string name="mas">+</string>
 </resources>

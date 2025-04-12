@@ -7,4 +7,6 @@
     <color name="bluedark">#5178EE</color>
     <color name="colorPrimary">#FF5733</color>
     <color name="colorAccent">#FF5733</color>
+    <color name="orangestrong">#FF9800</color>
+    <color name="bluelightsoft">#BBDEFB</color>
 </resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluelight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_foto_perfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_user"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_nombre"
+            style="@style/EditTextRounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/et_apellido"
+            style="@style/EditTextRounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/et_correo"
+            style="@style/EditTextRounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/et_telefono"
+            style="@style/EditTextRounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:textColor="@color/black"
+            android:inputType="phone"
+            android:layout_marginBottom="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_guardar"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Guardar cambios"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/bluedark"
+            android:textSize="18sp"
+            app:cornerRadius="30dp"
+            app:strokeColor="@color/bluedark"
+            app:strokeWidth="3dp" />
+
+    </LinearLayout>
+
+</ScrollView>
